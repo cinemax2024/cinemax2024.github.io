@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas Aclamadas Por El Publico Y La Critca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">CineMax</h1>
+            <nav>
+                <ul>
+                    <li><a href="cinemax.html">Inicio</a></li>
+                    
+                    <li><a href="videojuegos.html">Videojuegos</a></li>
+                    <li><a href="contacta.html">Contacta</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>¡Bienvenido a CineMax!</h2>
+            <h3>Descubre los últimos estrenos y encuentra tus películas favoritas.</h3>
+        </div>
+    </section>
+    <style>
+        /* Estilos generales para los botones */
+button {
+    background-color: #000000; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno: arriba-abajo, izquierda-derecha */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Para aplicar padding y dimensiones */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin: 10px; /* Espacio alrededor del botón */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+}
+
+/* Estilos cuando el botón está en estado de hover (cuando el ratón está sobre él) */
+button:hover {
+    background-color: #96adc5; /* Color de fondo cuando se pasa el ratón */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+}
+
+/* Estilos para el contenedor de las categorías */
+.movie-categories {
+    text-align: center; /* Centra el contenido */
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilos específicos para los botones dentro de las categorías */
+.movie-categories button {
+    background-color: #385cc0; /* Color de fondo para los botones de categorías */
+    font-size: 18px; /* Tamaño de la fuente más grande */
+    padding: 12px 24px; /* Espaciado interno más grande */
+    border-radius: 8px; /* Bordes redondeados más grandes */
+}
+
+.movie-categories button:hover {
+    background-color: #149494; /* Color de fondo cuando se pasa el ratón */
+}
+
+    </style>
+
+      <!-- Contenedor para las categorías de películas -->
+       <center>
+      <div class="movie-categories">
+        <h2>Categorías de Películas</h2>
+        <button type="button" onclick="window.location.href='accion.html'">Acción</button>
+        <button type="button" onclick="window.location.href='aventura.html'">Aventura</button>
+        <button type="button" onclick="window.location.href='animacion.html'">Animación</button>
+        <button type="button" onclick="window.location.href='comedia.html'">Comedia</button>
+        <button type="button" onclick="window.location.href='drama.html'">Drama</button>
+        <button type="button" onclick="window.location.href='sci-fi.html'">Ciencia Ficción</button>
+        <button type="button" onclick="window.location.href='peliculaspremiadas.html'">Peliculas Premiadas y aclamadas por la critica</button>
+
+    </div>
+</center>
+
+    <section class="featured-movies">
+        <div class="container">
+            <h2>Peliculas Aclamadas Por El Publico Y La Critica O Ganadoras Del Oscar</h2>
+
+
+            <button type="button" onclick="window.location.href='losinfiltrados.html'">
+                <img src="img/losinfiltrados.jpg" alt="" height="500" width="300" />
+                <h3>Los Infiltrados  </h3>
+            </button>
+
+            <button type="button" onclick="window.location.href='elpadrino.html'">
+                <img src="img/el padrino.jpg" alt="" height="500" width="300" />
+                <h3>El Padrino </h3>
+            </button>
+
+            <button type="button" onclick="window.location.href='elpadrino2.html'">
+                <img src="img/elpadrino2.jpg" alt="" height="500" width="300" />
+                <h3>El Padrino II</h3>
+            </button>
+
+            <button type="button" onclick="window.location.href='elpadrino3.html'">
+                <img src="img/elpadrino3.jpg" alt="" height="500" width="300" />
+                <h3>El Padrino III</h3>
+            </button>
+
+            <button type="button" onclick="window.location.href='taxidriver.html'">
+                <img src="img/taxidriver.jpg" alt="" height="500" width="300" />
+                <h3>Taxi Driver </h3>
+            </button>
+
+            <button type="button" onclick="window.location.href='Oppenheimer.html'">
+                <img src="img/oppenhaimer.jpg" alt="" height="500" width="300" />
+                <h3>Oppenheimer </h3>
+            </button>
+
+
+            <button type="button" onclick="window.location.href='ellaberintodefauno.html'">
+                <img src="img/elaberintodefauno.jpg" alt="" height="500" width="300" />
+                <h3>El Laberinto Del Fauno  </h3>
+            </button>
+
+            <button type="button" onclick="window.location.href='pulpfiction.html'">
+                <img src="img/pulpfiction.jpg" alt="" height="500" width="300" />
+                <h3>Tiempos Violentos  </h3>
+            </button>
+
+            <button type="button" onclick="window.location.href='Se7en.html'">
+                <img src="img/se7en.jpg" alt="" height="500" width="300" />
+                <h3>Seven, Los Siete pecados capitales</h3>
+            </button>
+
+            
+            <button type="button" onclick="window.location.href='bladerunner.html'">
+                <img src="img/Blade runner.jpg" alt="" height="500" width="300" />
+                <h3>Blade Runner 2049  </h3>
+            </button>
+
+            
+        </div>
+    </section>
+
+    <body>
+        <section class="footer">
+            <div class="container">
+                <h1>&copy; 2024 CineMax. Todos los derechos reservados.</h1>
+            </div>
+        </section>
+    </body>
+    </html>
